@@ -1,0 +1,167 @@
+:root {
+    --black: #202020;
+    --white: #f7f7f7;
+    --dk-green: #00844D;
+    --md-green: #10B14A;
+    --lht-green: #00B59f;
+    --montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --b-radius: 20px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--montserrat);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+header ul a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.title {
+    font-size: 1.575rem;
+
+}
+
+.section-img-txt {
+    height: 60vh;
+    width: 100vw;
+    background-color: var();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section-img-txt article {
+    align-items: start;
+    display: flex;
+    gap: 40px;
+}
+
+.section-img-txt article div:nth-child(2) {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.section-img-txt:nth-child(3) {
+    background-color: var(--lht-green);
+    color: var(--white);
+}
+
+.section-img-txt:nth-child(3) article {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+
+footer {
+    width: 100vw;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-evenly;
+    font: 600;
+    padding: 40px 0;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.outros-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vermelho {
+    color: #CC141D;
+}
+
+.verde {
+    color: var(--dk-green);
+}
+
+.logoMack {
+    height: 43px;
+    width: 147px;
+}
+
+
+footer div .contato {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer div .contato a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+footer div .midias {
+    display: flex;
+    gap: 16px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer ul li,
+a {
+    color: var(--white);
+}
+
+footer li {
+    list-style: none;
+}
