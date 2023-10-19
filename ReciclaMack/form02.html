@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sugestões</title>
+    <link rel="stylesheet" href="css/forms-style.css">
+    <title>Perguntas</title>
 </head>
 
 <body>
-
-
     <header>
         <nav>
             <div><a href="index.html">
@@ -25,9 +24,28 @@
             </ul>
         </nav>
     </header>
-    <img src="Ativos_Recicla_Mack/banner1.png" alt="">
 
-<section></section>
+
+    <section class="form sugestao">
+
+        <form name="formilario-pergunta" action="" method="post">
+            <fieldset>
+                <legend>Alguma sugestão?</legend>
+                
+            <h2>Alguma sugestão?</h2>
+            <label for="nome">
+                <input name="nome" type="text" placeholder="Nome" required>
+            </label>
+            <label for="email">
+                <input name="email" type="email" placeholder="exemplo@email.com" required>
+            </label>
+            <label for="sugestao">
+                <textarea class="text-sugestao" name="text-sugestao" type="text" placeholder="Pergunta" required></textarea>
+            </label>
+            <input type="button" name="" class="btn sugestao" value="Enviar">
+            </fieldset>
+        </form>
+    </section>
 
     <footer>
         <ul class="logos">
@@ -74,7 +92,6 @@
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>

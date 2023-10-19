@@ -7,11 +7,11 @@
 .o-que-reciclar {
     width: 100vw;
     padding: 64px;
-    color: var(--white);
+    color: var(--branco);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--lht-green);
+    background-color: var(--verde-azulado);
 }
 
 .o-que-reciclar article {
@@ -27,7 +27,7 @@
 }
 
 hr {
-    border: 1px solid var(--white);
+    border: 1px solid var(--branco);
 }
 
 .o-que-reciclar article span {
@@ -45,13 +45,15 @@ hr {
     flex-direction: column;
     gap: 24px;
 }
-.como-reciclar article{
+
+.como-reciclar article {
     display: flex;
     gap: 42px;
     flex-direction: column;
 }
+
 .como-reciclar hr {
-    border: 1px solid var(--black);
+    border: 1px solid var(--preto);
 }
 
 .container-texto-imagem {
@@ -65,13 +67,15 @@ hr {
     flex-direction: column;
     gap: 24px;
 }
-.container-texto p{
+
+.container-texto p {
     margin: 0 0 0 36px;
 }
+
 .container-texto span {
     width: 515px;
 }
 
-.inverso{
+.inverso {
     flex-direction: row-reverse;
 }

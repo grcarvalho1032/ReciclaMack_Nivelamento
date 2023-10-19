@@ -8,7 +8,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--lht-green);
+    background-color: var(--verde-azulado);
 }
 
 section article {
@@ -20,7 +20,7 @@ section article {
 
 section h1,
 h2 {
-    color: var(--white);
+    color: var(--branco);
 }
 
 div {
@@ -34,11 +34,11 @@ div {
 /* OBJETIVOS */
 
 .objetivos {
-    background-color: var(--white);
+    background-color: var(--branco);
 }
 
 .objetivos h1 {
-    color: var(--black);
+    color: var(--preto);
 }
 
 .cards-objetivos {
@@ -55,7 +55,7 @@ div {
 /* ESTUDANTES */
 
 .estudantes {
-    background-color: var(--md-green);
+    background-color: var(--verde-claro);
 }
 
 .cards-estudantes {
@@ -69,7 +69,7 @@ div {
     justify-content: center;
     padding: 36px;
     width: 300px;
-    background-color: var(--dk-green);
+    background-color: var(--verde-escuro);
     border-radius: 10px 10px 0 0;
 }
 
@@ -81,14 +81,14 @@ div {
     border-radius: 0 0 10px 10px;
     max-width: 300px;
     padding: 36px;
-    background-color: var(--lht-green);
-    color: var(--white);
+    background-color: var(--verde-azulado);
+    color: var(--branco);
 }
 
 /* COLABORADORES */
 
 .colaboradores {
-    background-color: var(--dk-green);
+    background-color: var(--verde-escuro);
 
 }
 
@@ -99,7 +99,7 @@ div {
     flex-wrap: nowrap;
     padding: 0;
     flex-wrap: wrap;
-    background-color: var(--white);
+    background-color: var(--branco);
     padding: 16px;
     border-radius: var(--b-radius);
 }
@@ -115,12 +115,12 @@ div {
 /* USUÁRIOS */
 
 .usuarios {
-    background-color: var(--white);
+    background-color: var(--branco);
 
 }
 
 .usuarios h2 {
-    color: var(--black);
+    color: var(--preto);
 }
 
 .cards-usuarios {
@@ -130,7 +130,7 @@ div {
     flex-wrap: nowrap;
     padding: 0;
     flex-wrap: wrap;
-    background-color: var(--lht-green);
+    background-color: var(--verde-azulado);
     padding: 16px;
     border-radius: var(--b-radius);
 }
@@ -138,7 +138,7 @@ div {
 .cards-usuarios span {
     display: flex;
     flex-direction: column;
-    color: var(--white);
+    color: var(--branco);
     gap: 10px;
     padding: 0;
     max-width: 210px;

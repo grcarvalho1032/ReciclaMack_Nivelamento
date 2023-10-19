@@ -1,0 +1,30 @@
+@import url(general-config.css);
+
+.form {
+    width: 100vw;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--verde-escuro);
+}
+
+form {
+    width: fit-content;
+    max-width: 750px;
+    padding: 64px;
+    border-radius: var(--b-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--verde-azulado);
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: var(--b-radius);
+}
+.text-sugestao{
+    width: 400px;
+    height: 200px;
+}
