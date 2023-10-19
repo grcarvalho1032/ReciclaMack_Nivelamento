@@ -65,25 +65,64 @@
     justify-content: center;
 }
 
+.redes article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
 .container-redes {
     display: grid;
     grid-template-columns: repeat(3 1fr);
-    grid-template-areas: 
-    "a b c"
-    "d e f";
+    grid-template-areas:
+        "a b c"
+        "d e f";
     gap: 48px;
 }
 
-.email {}
+.container-redes figure {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
-.instagram {}
+.container-redes a {
+    text-decoration: none;
+    font-weight: 500;
+}
 
-.linkedIn {}
+/* FAQ */
 
-.whatsapp {}
+.faq {
+    width: 100vw;
+    padding: 64px;
+    background-color: var(--dk-green);
+    display: flex;
+    justify-content: center;
+}
 
-.local {}
+.container-faq {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+}
 
-.telefone {}
+.card-faqs {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    max-width: 600px;
+    border-radius: var(--b-radius);
+}
 
-.local {}
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-faqs {
+    padding: 24px;
+    background-color: var(--white);
+}
