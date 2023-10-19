@@ -1,0 +1,89 @@
+@import url(general-config.css);
+
+.sugestao-pergunta {
+    width: 100vw;
+    padding: 64px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+
+.sugestao-pergunta h1 {
+    color: var(--white);
+}
+
+.sugestao-pergunta article {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+}
+
+.container-card {
+    display: flex;
+    gap: 24px;
+}
+
+.card-sp {
+    padding: 36px;
+    border-radius: var(--b-radius);
+    background: rgb(1, 209, 184);
+    background: linear-gradient(35deg, rgba(1, 209, 184, 1) 0%, rgba(16, 177, 74, 1) 100%);
+    max-width: 495px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-sp span {
+    display: flex;
+    flex-direction: column;
+    max-width: 256px;
+    gap: 24px;
+    color: var(--white);
+}
+
+.card-sp a {
+    text-decoration: none;
+    color: var(--lht-green);
+    padding: 8px;
+    width: fit-content;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: var(--white);
+}
+
+/* REDES */
+
+.redes {
+    width: 100vw;
+    padding: 64px;
+    background-color: var(--md-green);
+    display: flex;
+    justify-content: center;
+}
+
+.container-redes {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    gap: 48px;
+}
+
+.email {}
+
+.instagram {}
+
+.linkedIn {}
+
+.whatsapp {}
+
+.local {}
+
+.telefone {}
+
+.local {}
