@@ -1,25 +1,77 @@
 @import url(general-config.css);
 
-.banner2 img{
+.banner2 img {
     width: 100vw;
 }
 
-.oQueReciclar {
+.o-que-reciclar {
     width: 100vw;
     padding: 64px;
-
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--lht-green);
 }
 
-.oQueReciclar article{
+.o-que-reciclar article {
+    max-width: 960px;
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
-.oQueReciclar article div{
+.o-que-reciclar article div {
     display: flex;
-    
+    gap: 24px;
 }
-.oQueReciclar article span{
-    max-width: 550px;
+
+hr {
+    border: 1px solid var(--white);
+}
+
+.o-que-reciclar article span {
+    max-width: 515px;
+}
+
+/* COMO RECICLAR */
+
+.como-reciclar {
+    padding: 64px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.como-reciclar article{
+    display: flex;
+    gap: 42px;
+    flex-direction: column;
+}
+.como-reciclar hr {
+    border: 1px solid var(--black);
+}
+
+.container-texto-imagem {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.container-texto p{
+    margin: 0 0 0 36px;
+}
+.container-texto span {
+    width: 515px;
+}
+
+.inverso{
+    flex-direction: row-reverse;
 }
