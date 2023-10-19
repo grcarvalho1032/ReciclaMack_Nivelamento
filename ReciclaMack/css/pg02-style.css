@@ -1,0 +1,145 @@
+@import url(general-config.css);
+
+/* PARCEIROS */
+
+section {
+    padding: 64px 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lht-green);
+}
+
+section article {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section h1,
+h2 {
+    color: var(--white);
+}
+
+div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* OBJETIVOS */
+
+.objetivos {
+    background-color: var(--white);
+}
+
+.objetivos h1 {
+    color: var(--black);
+}
+
+.cards-objetivos {
+    padding: 16px;
+    gap: 16px;
+    max-width: 305px;
+    text-align: center;
+}
+
+.cards-objetivos h3 {
+    margin: 16px;
+}
+
+/* ESTUDANTES */
+
+.estudantes {
+    background-color: var(--md-green);
+}
+
+.cards-estudantes {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cards-estudantes figure {
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    width: 300px;
+    background-color: var(--dk-green);
+    border-radius: 10px 10px 0 0;
+}
+
+.cards-estudantes figure img {
+    margin: 0 auto;
+}
+
+.cards-estudantes span {
+    border-radius: 0 0 10px 10px;
+    max-width: 300px;
+    padding: 36px;
+    background-color: var(--lht-green);
+    color: var(--white);
+}
+
+/* COLABORADORES */
+
+.colaboradores {
+    background-color: var(--dk-green);
+
+}
+
+.cards-colaboradores {
+    display: flex;
+    align-items: center;
+    max-width: 335px;
+    flex-wrap: nowrap;
+    padding: 0;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: var(--b-radius);
+}
+
+.cards-colaboradores span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    max-width: 210px;
+}
+
+/* USUÁRIOS */
+
+.usuarios {
+    background-color: var(--white);
+
+}
+
+.usuarios h2 {
+    color: var(--black);
+}
+
+.cards-usuarios {
+    display: flex;
+    align-items: center;
+    max-width: 335px;
+    flex-wrap: nowrap;
+    padding: 0;
+    flex-wrap: wrap;
+    background-color: var(--lht-green);
+    padding: 16px;
+    border-radius: var(--b-radius);
+}
+
+.cards-usuarios span {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    gap: 10px;
+    padding: 0;
+    max-width: 210px;
+}

@@ -1,0 +1,31 @@
+@import url(general-config.css);
+
+.title {
+    font-size: 1.575rem;
+}
+
+.section-img-txt {
+    height: 60vh;
+    width: 100vw;
+    background-color: var();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-img-txt article {
+    gap: 40px;
+    max-width: 500px;
+}
+
+.que {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.porque {
+    background-color: var(--lht-green);
+    color: var(--white);
+    text-align: right;
+}

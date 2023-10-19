@@ -1,0 +1,25 @@
+@import url(general-config.css);
+
+.banner2 img{
+    width: 100vw;
+}
+
+.oQueReciclar {
+    width: 100vw;
+    padding: 64px;
+
+    background-color: var(--lht-green);
+}
+
+.oQueReciclar article{
+    display: flex;
+    flex-direction: column;
+}
+
+.oQueReciclar article div{
+    display: flex;
+    
+}
+.oQueReciclar article span{
+    max-width: 550px;
+}
