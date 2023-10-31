@@ -1,5 +1,9 @@
 @import url(general-config.css);
 
+h1 {
+    color: var(--branco);
+}
+
 .sugestao-pergunta {
     width: 100vw;
     padding: 64px;
@@ -93,13 +97,31 @@
 }
 
 /* FAQ */
+main {
+    width: 100vw;
+    background-color: var(--verde-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq article {
+    display: flex;
+    justify-content: space-between;
+}
 
 .faq {
-    width: 100vw;
+    max-width: 1200px;
     padding: 64px;
     background-color: var(--verde-escuro);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq h1 {
+    color: var(--branco);
+    align-self: self-start;
 }
 
 .container-faq {

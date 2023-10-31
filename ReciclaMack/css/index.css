@@ -4,27 +4,35 @@
     font-size: 1.575rem;
 }
 
-.section-img-txt {
-    height: 60vh;
+main {
     width: 100vw;
-    background-color: var();
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
 }
 
-.section-img-txt article {
-    gap: 40px;
-    max-width: 500px;
-}
-
-.que {
+section {
+    width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    gap: 40px;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 590px;
+}
+
+main section:nth-child(1) {
     flex-direction: row-reverse;
 }
 
-.porque {
+main section:nth-child(2) {
     background-color: var(--verde-azulado);
     color: var(--branco);
     text-align: right;
