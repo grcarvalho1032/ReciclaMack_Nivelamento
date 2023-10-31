@@ -1,30 +1,88 @@
 @import url(general-config.css);
 
-.form {
+main {
     width: 100vw;
     padding: 64px;
     display: flex;
     justify-content: center;
+}
+
+.container-form-sugestao {
     background-color: var(--verde-escuro);
+}
+
+.container-form-pergunta {
+    background-color: var(--verde-azulado);
+}
+
+form h2 {
+    color: var(--branco);
 }
 
 form {
     width: fit-content;
     max-width: 750px;
     padding: 64px;
-    border-radius: var(--b-radius);
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.formulario-sugestao {
     background-color: var(--verde-azulado);
+}
+
+.formulario-pergunta {
+    background-color: var(--verde-escuro);
 }
 
 input {
     width: 400px;
     height: 40px;
+    padding: 10px;
+    border: none;
     border-radius: var(--b-radius);
+    font-family: var(--montserrat);
+    font-weight: 600;
+    color: var(--preto);
+    font-size: 1rem;
 }
-.text-sugestao{
+
+.text {
     width: 400px;
     height: 200px;
+}
+
+textarea {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    color: var(--preto);
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: var(--b-radius);
+    border: none;
+}
+
+.btn {
+    width: 116px;
+    height: 50px;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-pergunta {
+    color: var(--branco);
+    background-color: var(--verde-azulado);
+}
+
+.btn-sugestao {
+    color: var(--branco);
+    background-color: var(--verde-escuro);
 }

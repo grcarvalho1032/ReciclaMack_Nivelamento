@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/forms-style.css">
-
-    <title>Sugestões</title>
+    <title>Perguntas</title>
 </head>
 
 <body>
-
-
     <header>
         <nav>
             <div><a href="index.html">
@@ -19,17 +16,30 @@
                 </a></div>
             <!-- <div><a href="index.html"><img src="Ativos_Recicla_Mack/logomackenzie.png" alt=""></a></div> -->
             <ul>
-                <li><a href="pg02.html">Quem somos</a></li>
-                <li><a href="pg03.html">Informativos</a></li>
-                <li><a href="pg04.html">Contato</a></li>
-                <li><a href="pg05.html">Pontos de coleta</a></li>
-                <li><a href="pg05.html">Nossos Projetos</a></li>
+                <li><a href="QuemSomos.html">Quem somos</a></li>
+                <li><a href="LixoEletronico.html">Lixo Eletronico</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Pontos de coleta.html">Pontos de coleta</a></li>
+                <li><a href="NossosProjetos.html">Nossos Projetos</a></li>
             </ul>
         </nav>
     </header>
-  
 
-    <section></section>
+    <main class="container-form-pergunta">
+        <form class="formulario-pergunta" name="formulario-pergunta" action="" method="post">
+            <h2>Alguma pergunta?</h2>
+            <label for="nome">
+                <input name="nome" type="text" placeholder="Nome" required>
+            </label>
+            <label for="email">
+                <input name="email" type="email" placeholder="exemplo@email.com" required>
+            </label>
+            <label for="pergunta">
+                <textarea class="text" name="text-pergunta" type="text" placeholder="Pergunta" required></textarea>
+            </label>
+            <input type="button" name="btn-pergunta" class="btn btn-pergunta" value="Enviar">
+        </form>
+    </main>
 
     <footer>
         <ul class="logos">
@@ -76,7 +86,6 @@
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>
