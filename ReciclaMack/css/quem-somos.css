@@ -1,31 +1,8 @@
 @import url(general-config.css);
 
 /* PARCEIROS */
-main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 section {
-    max-width: 1200px;
-    padding: 64px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-article{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    /* max-width: 590px; */
-}
-
-
-
-
-/* section {
     padding: 64px 0;
     width: 100vw;
     display: flex;
@@ -52,10 +29,10 @@ div {
     justify-content: center;
     align-items: center;
     gap: 20px;
-} */
+}
 
 /* OBJETIVOS */
-/* 
+
 .objetivos {
     background-color: var(--branco);
 }
@@ -73,11 +50,11 @@ div {
 
 .cards-objetivos h3 {
     margin: 16px;
-} */
+}
 
 /* ESTUDANTES */
 
-/* .estudantes {
+.estudantes {
     background-color: var(--verde-claro);
 }
 
@@ -106,10 +83,10 @@ div {
     padding: 36px;
     background-color: var(--verde-azulado);
     color: var(--branco);
-} */
+}
 
 /* COLABORADORES */
-/* 
+
 .colaboradores {
     background-color: var(--verde-escuro);
 
@@ -133,10 +110,10 @@ div {
     gap: 10px;
     padding: 0;
     max-width: 210px;
-} */
+}
 
 /* USUÁRIOS */
-/* 
+
 .usuarios {
     background-color: var(--branco);
 
@@ -165,4 +142,4 @@ div {
     gap: 10px;
     padding: 0;
     max-width: 210px;
-} */
+}

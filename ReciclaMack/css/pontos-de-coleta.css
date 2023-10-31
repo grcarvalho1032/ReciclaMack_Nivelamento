@@ -1,1 +1,48 @@
 @import url(general-config.css);
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.como-separar {
+    background-color: var(--verde-escuro);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    gap: 20px;
+    color: var(--branco);
+    align-items: center;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.como-separar article div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 320px;
+}
+
+.como-separar article image {
+    width: 100%;
+}
+
+.como-separar article figure {
+    margin: 10px;
+    max-width: 340px;
+}
+.como-separar span{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
