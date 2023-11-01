@@ -1,0 +1,114 @@
+@import url(general-config.css);
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventos article {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.eventos article div {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventos article div span {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+}
+
+.eventos article div:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+img {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+
+.projetos {}
+
+.projetos article {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--branco);
+
+
+}
+
+.projetos article div {
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+
+}
+
+.projetos article div span {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projetos article div span a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.projetos article div span a:hover {
+    opacity: 0.8;
+}
+
+.projetos article:nth-child(1) {
+    background-color: var(--verde-azulado);
+}
+
+.projetos article:nth-child(2) {
+    background-color: var(--verde-claro);
+}
+
+.projetos article:nth-child(3) {
+    background-color: var(--verde-escuro);
+}
+
+.projetos article:nth-child(2) div {
+    flex-direction: row-reverse;
+}
+
+.projetos article:nth-child(1) div span a {
+    background-color: var(--verde-claro);
+}
+
+.projetos article:nth-child(2) div span a {
+    background-color: var(--verde-escuro);
+
+}
+
+.projetos article:nth-child(3) div span a {
+    background-color: var(--verde-azulado);
+
+}
